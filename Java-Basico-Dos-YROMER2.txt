@@ -1,0 +1,27 @@
+Ejercicio con For:
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int limite = 10;
+        int incremento = 1;
+        int inicio = 1;
+        int sumatoria = 0;
+        for (int numero = inicio; numero <= limite; numero = numero + incremento) {
+            sumatoria += numero;
+            System.out.print(numero + " ");
+        }
+        System.out.println("La sumatoria es: " + sumatoria);
+
+}
+}
+
+
+Ejercicio con While:
+
+int i = 1;
+        int suma = 0;
+        do {
+            suma += i;
+            i++;
+        }while (i<=10);
+        System.out.println("La suma es: " +suma);
